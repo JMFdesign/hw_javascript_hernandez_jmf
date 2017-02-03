@@ -23,3 +23,15 @@ numba(string[0]);
 numba(string[1]);
 
 numba(string[2]);
+
+function inception(display, favMovie) {
+    display(favMovie);
+}
+
+function display() {
+    console.log(favMovie + ' is a fantastic movie.');
+}
+
+var favMovie = 'What Dreams May Come';
+
+inception(display, favMovie);

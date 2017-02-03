@@ -5,12 +5,12 @@ function howdy() {
 
 howdy();
 
-//6b
-function numba(string) {
-    if (string.length < 7) {
+//6b - function declaration
+function numba2(string2) {
+    if (string2.length < 7) {
         console.log('What a short little word!');
 
-    } else if (string.length === 7) {
+    } else if (string2.length === 7) {
         console.log('7, what a perfect choice!');
 
     } else {
@@ -18,13 +18,35 @@ function numba(string) {
     }
 }
 
-var string = ['7', 'seventy', 'university'];
+var string2 = ['7', 'seventy', 'university'];
 
-numba(string[0]);
+numba2(string2[0]);
 
-numba(string[1]);
+numba2(string2[1]);
 
-numba(string[2]);
+numba2(string2[2]);
+
+//6b - function expression
+var numba = function (string) {
+    if (string.length < 7) {
+        return 'What a short little word!';
+
+    } else if (string.length === 7) {
+        return '7, what a perfect choice!';
+
+    } else {
+        return 'I\'m sorry, but that\'s too many to count.';
+    }
+};
+
+var message = numba('7');
+console.log(message);
+
+var message2 = numba('seventy');
+console.log(message2);
+
+var message3 = numba('university');
+console.log(message3);
 
 //6c
 function inception(display, favMovie) {
@@ -35,6 +57,6 @@ function display() {
     console.log(favMovie + ' is a fantastic movie.');
 }
 
-var favMovie = 'What Dreams May Come';
+var favMovie = '\"What Dreams May Come\"';
 
 inception(display, favMovie);

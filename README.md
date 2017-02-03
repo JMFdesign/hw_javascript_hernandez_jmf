@@ -1,4 +1,4 @@
-# Git Homework README.md
+# JavaScript Homework README.md
 
 ## Resources
 

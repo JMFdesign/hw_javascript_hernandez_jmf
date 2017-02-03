@@ -5,6 +5,7 @@ function howdy() {
 
 howdy();
 
+//6b
 function numba(string) {
     if (string.length < 7) {
         console.log('What a short little word!');
@@ -17,7 +18,6 @@ function numba(string) {
     }
 }
 
-//6b
 var string = ['7', 'seventy', 'university'];
 
 numba(string[0]);

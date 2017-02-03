@@ -10,4 +10,4 @@
 
 ## Comments
 
-  * I am still terrified of JS... but I'm working on it.
+  * After a couple of subsequent commits, I realized that I did not properly edit the commit with SHA# 0b9b8b4; it should have read "complete instructions under #5" rather than "complete instructions under #4".

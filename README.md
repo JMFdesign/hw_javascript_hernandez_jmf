@@ -1,5 +1,7 @@
 # JavaScript Homework README.md
 
+[Link to this Assignment's Repo](https://github.com/JMFdesign/hw_javascript_hernandez_jmf)
+
 ## Resources
 
   * I did not use any resources outside of the lectures and my notes on this assignment.

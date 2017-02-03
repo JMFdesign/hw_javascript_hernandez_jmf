@@ -1,3 +1,4 @@
+//6a
 function howdy() {
     console.log('JMF Hernandez says hi!');
 }
@@ -16,6 +17,7 @@ function numba(string) {
     }
 }
 
+//6b
 var string = ['7', 'seventy', 'university'];
 
 numba(string[0]);
@@ -24,6 +26,7 @@ numba(string[1]);
 
 numba(string[2]);
 
+//6c
 function inception(display, favMovie) {
     display(favMovie);
 }
